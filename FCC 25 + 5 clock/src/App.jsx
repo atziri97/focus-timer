@@ -153,7 +153,7 @@ export default function App() {
         pauseSwitch={pauseSwitch}
         breakSwitch={breakSwitch} 
       />
-        <a><img src='./public/github-mark-white.svg' /></a>
+        <a href='https://github.com/atziri97/focus-timer'><img src='./public/github-mark-white.svg' /></a>
       <div className='buttons-wrapper' >
         <ControlsButton icon='pause' onClick={() => setPauseSwitch(!pauseSwitch)} />
         <ControlsButton icon='play' onClick={() => setPauseSwitch(false)}/>
