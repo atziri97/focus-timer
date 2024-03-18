@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #28272b;
+  font-family: 'Poppins', sans-serif;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.controls-wrap {
+  background-color: rgb(34, 32, 39);
+  color: white;
+  height: 80px;
+  border-radius: 40px;
+  display: flex;
+  margin: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.controlsButton {
+  background-color: rgb(75, 69, 78);
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.25s;
+  transition: border 0.1s;
+  box-sizing: border-box;
+}
+
+a img {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.controlsButton > h1 {
+  color: #ffa257;
+}
+
+.controlsButton:hover {
+  background-color: rgb(117, 106, 122);
+  border: 4px solid #b6b6b6;
+}
+
+.controlsButton:active {
+  background-color: white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-wrapper {
+  margin: auto 45px;
+}
+
+.sub-wrapper > h1 {
+  text-align: center;
+  color: white;
+}
+
+.play {
+  width: 120px;
+  height: 120px;
+  border-radius: 200px;
+  margin: 0px 25px;
+}
+
+.counter {
+  margin: auto 45px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.dials {
+  margin: auto 45px;
+}
+
+.dials-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(34, 32, 39);
+  border-radius: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dials-wrapper > h1 {
+ color: rgb(85, 204, 168);
+ width: 40px;
+}
+
+.session-wrap {
+  background-color: rgb(34, 32, 39);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: white;
+  padding: 5px;
+  margin: 40px auto;
+  border: 1px solid #808080;
+  border-radius: 40px;
+  width: 550px;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.session-wrap > h1 {
+  font-size: 120px;
+  text-align: center;
+  margin: 0;
+}
+
+.pause-icon {
+  padding-bottom: 20px;
+  height: 70px;
+  margin: 0
+}
+
+.timer-paused {
+  color: #ffa257
+}
+
+.timer-active {
+  color: rgb(85, 204, 168);
+}
+
+.timer-on-break {
+  color: #c266ff;
+}
+
+.paused {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 20px;
+  color: #ffa257;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+
+.buttons-wrapper > div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-button {
+  background-color: #808080;
+  margin: 0px 25px;
+}
